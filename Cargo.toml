@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 pqcrypto-kyber = "0.7.6"
-pqc_kyber = {version = "0.6.0", features = ["kyber512", "kyber1024", "90s"]}
+pqc_kyber = {version = "0.6.0"}
 rand = "0.8.5"
