@@ -17,8 +17,6 @@ fn pqcrypto_kyber_bench() {
         pqcrypto_time.kyber_768_90s += crypto::pqcrypto_kyber::kyber76890s_bench();
         pqcrypto_time.kyber_512 += crypto::pqcrypto_kyber::kyber512_bench();
         pqcrypto_time.kyber_512_90s += crypto::pqcrypto_kyber::kyber512_90s_bench();
-    
-        
     }
 
     pqcrypto_time.kyber_1024.divide(N);
@@ -30,6 +28,7 @@ fn pqcrypto_kyber_bench() {
 
     println!("{}", pqcrypto_time);
 }
+
 fn main() {
 
 }
